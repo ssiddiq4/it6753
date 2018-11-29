@@ -1,0 +1,273 @@
+/*Created by Shaheer Siddiqui
+IT5443 
+Milestone 1
+2/9/2018*/
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	background-image: url("img/pattern.png");
+	min-width:70em;
+	color:white;
+	font-size:90%;
+}
+#menu_header{
+	padding-left: 1.5em;
+	font-size: 1.7em;
+}
+.menu ul {
+	padding: 0em 0em 0em 2.5em;
+	font-size: 1.4em;
+}
+.menu li {
+	padding: 0em 0em 1em 1em;
+	font-size: 1.4em;
+	list-style-type: none;
+}
+#logo{
+	float:left;
+	height: 9.375em;
+	width: 23.4375em;
+	padding: 1em .5em .5em .5em;
+}
+#research_img{
+	width: 25em;
+	height: 15.4375em;
+	display: block;
+	margin: 2em auto;
+}
+#title{
+	text-align: center;
+	padding: 1.25em 0em 0em 0em;
+	margin: 0em;
+	font-size: 3em;
+}
+#position_form{
+	width: 27em;
+	height: 25em;
+	display: block;
+	margin: 2em auto;
+}
+#application_form{
+	width: 27em;
+	height: auto;
+	display: block;
+	margin: 2em auto;
+}
+.header {
+	float:left;
+	width:100%;
+	padding:0;
+	margin:0;
+	border-bottom:1px solid grey;
+	height: 11em;
+}
+div div div div div div p{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.4em;
+}
+div div div div div div fieldset{
+	font-size: 1.4em;
+}
+h2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 2em;
+}
+.fieldlabel{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+.selectBox{
+	border-radius: 1em;
+	background-color: #424242;
+	color: white;
+	border-color: grey;
+	font-size: .9em;
+	width: auto;
+	text-align:center;
+}
+.textResponse{
+	background-color: #424242;
+	color: white;
+	border-color: grey;
+	font-size: .8em;
+	width: 25em;
+}
+.radioButton{
+	width: 1.3em;
+	height: 1.3em;
+}
+#button{
+	border-radius: 1em;
+	width: 6em;
+	height: 2em;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 8px 16px 0 rgba(0,0,0,0.2);
+	font-weight:bold;
+}
+.results{
+	display: block;
+	visibility: hidden;
+}
+#class1{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+#class2{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+#class3{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+#class4{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+.seasons_break{
+	border-bottom:3px dashed white;
+}
+.bulletin{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.4em;
+}
+.faculty_img{
+	float: left; 
+	height:12.1em; 
+	width:18.17em; 
+	margin-right:2em;
+}
+.faculty{
+	padding-bottom: 4em;
+	list-style: none;
+	font-size:1.4em;
+}
+.name{
+	list-style: none;
+	font-size:1.6em;
+	font-weight:bold;
+	margin: 0;
+
+}
+a:link {
+    color: white; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gold;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: gold;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.appLink:link {
+    color: white; 
+    background-color: transparent; 
+    text-decoration: underline;
+}
+.appLink:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.appLink:hover {
+    color: gold;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.appLink:active {
+    color: gold;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.name:hover{
+	color: white; 
+	text-decoration: none;
+}
+.name:active{
+	color: white; 
+	text-decoration: none;
+}
+.container {
+	position:relative;
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any content longer then divs */
+	background:clear;		/* Left column background colour */
+}
+.colmid {
+	float:left;
+	width:200%;
+	position:relative;
+	left:13.5em;
+	background:clear;    	/* Centre column background colour */
+}
+.colright {
+	float:left;
+	width:100%;
+	position:relative;
+	left:50%;
+	margin-left:-27em;
+	background:clear;    	/* Right column background colour */
+}
+.col1wrap {
+	float:right;
+	width:50%;
+	position:relative;
+	right:100%;
+}
+.col1pad {
+	margin:0 1em 0 28em;
+	overflow:hidden;
+}
+.col1 {
+	width:100%;
+	overflow:hidden;
+}
+.col2 {
+	float:left;
+	width:11em;
+	position:relative;
+	margin-left:-50%;
+	left:12.5em;
+	overflow:hidden;
+}.col3 {
+	float:left;
+	width:11em;
+	position:relative;
+	left:1em;
+	overflow:hidden;
+}
+.footer {
+	clear:both;
+	float:left;
+	width:100%;
+	padding:0;
+	margin:0;
+	border-top:1px solid grey;
+	background-color:clear;
+}
+.footer p {
+	padding:.5em 1em;
+}
+
